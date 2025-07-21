@@ -4,7 +4,7 @@ A comprehensive script to download and deploy a complete OpenTelemetry observabi
 
 ## 🎯 Overview
 
-This tool creates a self-contained package with everything needed for a full observability platform:
+This script creates a self-contained package with intial required packages, tools, etc to build a observability platform:
 - **Traces**: Jaeger + Tempo
 - **Metrics**: Prometheus + Grafana  
 - **Logs**: Loki + Elasticsearch (ELK Stack)
@@ -261,10 +261,6 @@ Add more container images to the `IMAGES` array in `otel-offline-setup.sh`.
 4. Test in your environment
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🆘 Support
 
 - **Issues**: [GitHub Issues](https://github.com/pooyan/OTEL-AirGAP/issues)
@@ -278,5 +274,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Comprehensive error handling and logging
 
 ---
-
-**Made with ❤️ for the OpenTelemetry and Kubernetes community**
